@@ -4,12 +4,10 @@
 	box-sizing: border-box;
 	font-family: system-ui;
 }
-
+    
 .outerbox{
 	display: none;
 }
-
-
 .dest-text{
 	background: rgb(247, 245, 245);
 	width: 100%;
@@ -41,7 +39,6 @@
         justify-content: center;
         font-size: 40px;
         color: rgb(56, 46, 34); 
-   
     }
 	.header{
 		width: 100%;
@@ -52,7 +49,7 @@
 	.footer{
 		width: 100%;
 		float: left;
-		background-color: whitesmoke;
+		background-color: #ebe5e5;
 		position: fixed;
 		bottom: 0;
 		text-align: center;	
@@ -60,7 +57,7 @@
     .box1{
         margin-top: 15px;
         display: flex;
-        margin: 20px;
+        margin: 71px;
         justify-content: space-between;
     }
 	
@@ -76,38 +73,38 @@
 		text-align: center;margin-top: 30px;
 	}
     .home-icon{
-        width: 70px;
-        height: 70px;
+        width: 56px;
+        height: 56px;
         float: left;
         background-image: url('images/home-ic.png');
         background-position: center;
         background-size: cover;
     }
     .search-icon{
-        width: 70px;
-        height: 70px;
+        width: 56px;
+        height: 56px;
         float: left;
         background-image: url('images/search.png');
         background-size: cover; 
     }
     .upload-icon{
-        width: 70px;
-        height: 70px;
+        width: 56px;
+        height: 56px;
         float: left;
         background-image: url('images/upload.png');
         background-size: cover; 
     }
 
     .viedo-icon{
-        width: 70px;
-        height: 70px;
+        width: 56px;
+        height: 56px;
         float: left;
         background-size: cover;
         background-image: url('images/video.png');
     }
     .profile-icon{
-        width: 70px;
-        height: 70px;
+        width: 56px;
+        height: 56px;
         float: left;
         background-image: url('https://t4.ftcdn.net/jpg/06/28/16/77/240_F_628167759_Cn4fKq1kh2CgiJrvI8C1rVpb2JZvhJxZ.jpg');
         background-size: cover;
