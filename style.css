@@ -42,10 +42,122 @@
     }
 	.header{
 		width: 100%;
-		height: 90vh;
 		float: left;
-		background-color: rgb(252, 252, 252);
 	}
+    .navbarr{
+        width: 100%;
+        height: 155px;
+        float: left;
+        background-color: #f8f8f8;
+    }
+    .ins-logo{
+        width: 50%;
+        height: 100px;
+        float: left;  
+    }
+    .right-icon{
+        width: 50%;
+        height: 70px;
+        float: left;   
+    }
+    .header-icon1{
+        font-size: 45px;
+        float: left;       
+        padding-left: 65%;
+        padding-top: 44px;
+    }
+ .head-loc{
+    font-size: 45px;
+    padding: 44px;
+    float: left;       
+ }
+ .sto-main-row{
+    display: flex;
+    justify-content: space-around;
+ }
+ .stroy-box1{
+    width: 156px;
+    height: 156px;
+    border-radius: 50%;
+    float: left;
+    background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-position: center;
+    background-size: cover;
+ }
+ .stroy-box2{
+    width: 156px;
+    height: 156px;
+    border-radius: 50%;
+    float: left;
+    background-image: url('images/story.webp');
+        background-size: cover;  
+ }
+ h5{
+    font-size: 25px;
+    padding-top: 160px;
+    font-weight: bold;
+    color: #000000c4;
+ }
+ h6{
+    padding-top: 160px;
+    text-align: center;
+    font-size: 30px;
+ }
+ .sto2-col{
+    width: 100%;
+    height: 133px;
+    float: left;
+    margin-top: 50px;
+    background-color: #f3f3f3;
+ }
+ .col2-left-box{
+    width: 60%;
+    height: 133px;
+    float: left;
+ }
+ .col2-right-box{
+    width: 40%;
+    height: 133px;
+    float: right;
+ }
+ .my-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url('images/5.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: 15px;
+ }
+
+ .dot-icon{
+    font-size: 50px;
+    margin-right: 32px;
+    margin-top: 20px;
+    float: right;
+ }
+ .ins-img{
+    width: 100%;
+    height: 37vh;
+    float: left;
+    background-image: url('https://imgs7.luluandsky.com/catalog/product/A/N/ANVI-TSHIRT-019_1.jpg');
+background-repeat: no-repeat;
+background-size: cover; 
+}
+.ins-img2{
+    width: 100%;
+    height: 37vh;
+    float: left;
+    background-image: url('https://imgs7.luluandsky.com/catalog/product/A/N/ANVI-TSHIRT-019_1.jpg');
+background-repeat: no-repeat;
+background-size: cover; 
+}
+ h2{
+    margin-top: -55px;
+    margin-left: 19%;
+    font-weight: bold;
+ }
 	.footer{
 		width: 100%;
 		float: left;
@@ -106,9 +218,10 @@
         width: 50px;
         height: 50px;
         float: left;
-        background-image: url('https://t4.ftcdn.net/jpg/06/28/16/77/240_F_628167759_Cn4fKq1kh2CgiJrvI8C1rVpb2JZvhJxZ.jpg');
+        background-image: url('images/1.jpg');
         background-size: cover;
         background-position: center;
+        background-color: none;
     }
 	.dest-text{
 		display: none;
